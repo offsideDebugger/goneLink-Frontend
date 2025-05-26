@@ -18,7 +18,7 @@ export const App = () => {
     setCopied(false)
     
     try {
-      const response = await fetch('https://gonelink-backend-production.up.railway.app/api/create', {
+      const response = await fetch('https://gonelink-backend-production.up.railway.app/api/create/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
